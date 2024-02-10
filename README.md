@@ -1,7 +1,7 @@
 # test-dev-softbet
 
 ```
-  Projeto construído como teste para vaga de Desenvolvedor Front-end da SoftBet.
+  Home page de teste de uma casa de apostas.
 ```
 
 ## Tecnologias Utilizadas
