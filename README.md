@@ -1,7 +1,7 @@
 # test-dev-softbet
 
 ```
-  Home page de teste de uma casa de apostas.
+  Modelo fictício de uma home page para uma casa de apostas.
 ```
 
 ## Tecnologias Utilizadas
