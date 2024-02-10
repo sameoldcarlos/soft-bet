@@ -1,0 +1,28 @@
+:root {
+    --black: #000000;
+    --white: #FFFFFF;
+    --orange: #FF7043;
+    --grayish-blue: #72869E;
+    --gray-100: #F2F2F2;
+    --gray-200: #EEEEEE;
+    --gray-300: #C4C4C4;
+    --gray-400: #979797;
+    --gray-500: #828282;
+    --gray-600: #605A58;
+    --gray-700: #484848;
+    --gray-800: #2C2C2C;
+    --gray-900: #0B0B0B;
+    --green: #219653;
+    --yellow: #FFCA28;
+    --pink: #EA5172;
+    --red: #FF1010;
+    --body-bg: var(--gray-800);
+    --primary-text: var(--gray-100);
+    --secondary-text: var(--orange);
+    --highlight-text-1: var(--pink);
+    --highlight-text-2: var(--yellow);
+    --success: var(--green);
+    --input-text: #333333;
+    --black-alpha-25: rgba(0, 0, 0, 0.25);
+    --black-alpha-50: rgba(0, 0, 0, 0.5);
+}

@@ -1,0 +1,28 @@
+<div 
+  class="leagues"
+  :style="styleHeight"
+>
+  <div class="leagues__header">
+    <img 
+      src="/src/assets/img/trophy.svg"
+      :alt="leaguesTitle"
+      class="leagues__icon leagues__icon--header"
+      width="12"
+      height="12"
+    >
+    <span class="leagues__title">{{ leaguesTitle }}</span>
+  </div>
+  <div
+    class="leagues__league"
+    v-for="country in countries"
+  >
+    <img
+      :src="flagPath(country)"
+      :alt="country"
+      class="leagues__icon"
+      width="25"
+      height="25"
+    >
+    <span class="leagues__country">{{ country }}</span>
+  </div>
+</div>

@@ -1,0 +1,103 @@
+.match-card {
+  width: 230px;
+  height: 120px;
+  padding: 10px 15px;
+  border-radius: 8px;
+  background-color: var(--gray-700);
+  box-shadow: 1px 5px 10px var(--black-alpha-25);
+  text-transform: capitalize;
+  
+  &__header {
+    display: grid;    
+    align-items: center;
+    grid-template-columns: 10px 1fr 15px auto;
+    grid-template-rows: 20px 20px;
+    column-gap: 5px;
+    margin: 0;
+  }
+
+  &__sport {
+    width: 10px;
+    height: 10px;
+    grid-column: 1/span 1;
+    grid-row: 1/span 1;
+  }
+
+  &__date {
+    grid-column: 2/span 1;
+    grid-row: 1/span 1;
+    font-size: 10px;
+    line-height: 27px;
+  }
+
+  &__country {
+    width: 15px;
+    height: 15px;
+    grid-column: 3/span 1;
+    grid-row: 1/span 1;
+  }
+
+  &__league {
+    grid-column: 4/span 1;
+    grid-row: 1/span 1;
+    font-size: 12px;
+    line-height: 27px;
+  }
+
+  &__time {
+    grid-column: 4/span 1;
+    grid-row: 2/span 1;
+    justify-self: end;
+    color: var(--orange);
+    font-size: 10px;
+  }
+
+  &__body {
+    display: grid;    
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: 1fr 42px 19px 40px 1fr;
+    grid-template-rows: 42px 20px;
+    margin-top: -5px;
+    margin-bottom: 0px;
+    column-gap: 10px;
+    font-size: 10px;
+  }
+
+  &__winner {
+    grid-column: 2/span 3;
+    grid-row: 2/span 1;
+    color: var(--grayish-blue);
+    font-weight: 700;
+  }
+
+  &__footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35px;
+    gap: 5px;
+  }
+
+  &__odds {
+    justify-self: center;
+    display: flex;
+    gap: 10px;
+  }
+  &__odd {
+    background-color: var(--grayish-blue);
+    width: 45px;
+    height: 14px;
+    text-align: center;
+    padding: 3px 0 4px 0;
+    font-size: 10px;
+
+    &--highlight {
+      background-color: var(--orange);
+    }
+  }
+  &__points {
+    color: var(--success);
+    font-size: 10px;
+  }
+}

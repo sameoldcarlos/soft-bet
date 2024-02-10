@@ -1,0 +1,88 @@
+<div class="match-details">
+  <div class="match-details__header">
+    <img 
+      src="/src/assets/img/flag-russia.png"
+      alt="Rússia"
+      class="match-details__country"
+      width=22
+      height=23
+    >    
+    <img 
+      src="/src/assets/img/football.svg"
+      alt="Futebol"
+      class="match-details__sport"
+      width=22
+      height=22
+    >
+    <span class="match-details__league-name">
+      Apertura de Nicarágua
+    </span>
+  </div>
+  <div class="match-details__body">
+    <div class="match-details__score">
+      <div class="match-details__home">
+        <span class="match-details__team">
+          <img
+            src="/src/assets/img/camisa-time-1.png"
+            alt="Camisa do Time 1"
+            width=21
+            height=21
+          >
+          <span class="match-details__team-name">
+            Clube Atlético
+          </span>
+        </span>
+        <span class="match-details__team-score">
+          1
+        </span>
+      </div>
+      <div class="match-details__guest">
+        <span class="match-details__team">
+          <img
+            src="/src/assets/img/camisa-time-2.png"
+            alt="Camisa do Time 2"
+            width=21
+            height=22
+          >
+          <span class="match-details__team-name">
+            Clube Atlético
+          </span>
+        </span>
+        <span class="match-details__team-score">
+          3
+        </span>        
+      </div>
+    </div>
+    <div class="match-details__odds">
+      <div class="match-details__odd-home">
+        <p>1,44</p>
+      </div>
+      <div class="match-details__odd-draw">
+        <p>1,44</p>
+      </div>
+      <div class="match-details__odd-guest">
+        <p>1,44</p>
+      </div>
+    </div>
+    <div class="match-details__points">
+      <span class="up">+</span>231
+    </div>
+    <img 
+      src="/src/assets/img/bar-chart.svg"
+      class="match-details__variation"
+      width=23
+      height=24
+    >
+  </div>
+  <div class="match-details__footer">
+    <img 
+      :src="icon"
+      alt="Transmissão"
+      width=21
+      height=16
+    >
+    <span class="match-details__info" :style="infoColor">
+      {{ info }}
+    </span>
+  </div>
+</div>

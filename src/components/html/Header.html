@@ -1,0 +1,42 @@
+<header class="header" id="header">
+  <nav class="header__nav">
+    <a href="/">
+      <img 
+        src="@/assets/img/logo.svg"
+        alt="Logo Softbet"
+      >
+    </a>
+    <ul
+      class="menu"
+    >
+      <li
+        class="menu__item"
+        v-for="menuItem in menuItems"
+      >
+        {{ menuItem }}
+      </li>
+    </ul>
+    <div class="header__options">
+      <button class="account-button account-button--login">Entrar</button>
+      <button class="account-button account-button--subscribe">Cadastra-se</button>
+      <div class="header__language">        
+        <img src="@/assets/img/flag-portugal.png" alt="Bandeira de Portugal" width="26" height="24">
+        <select class="lang-selector">
+          <option class="lang-selector__option">Português</option>
+        </select>
+      </div>
+    </div>
+  </nav>
+  <nav class="header__nav header__nav--games">
+    <ul
+      class="menu"
+    >
+      <li
+        class="menu__item menu__item--game"
+        v-for="game in games"
+      >
+        <img :src="game.picture" alt=""> {{ game.title }}
+      </li>
+    </ul>
+  </nav>
+</header>

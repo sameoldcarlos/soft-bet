@@ -1,0 +1,33 @@
+<div class="match-carousel">
+  <button
+    class="navigate"
+    @click="translate('prev')"
+    :disabled="(currentPage <= 1)"
+  >
+    <img
+      src="/src/assets/img/left-arrow.svg"
+      alt="Anterior"
+      width="32"
+      height="32"
+    >
+  </button>
+  <div class="match-carousel__carousel">
+    <div class="match-carousel__current">
+      <div class="match-carousel__content" :style="this.contentStyle">
+        <MatchCard v-for="cardNum in cardCount"></MatchCard>
+      </div>
+    </div>
+  </div>  
+  <button
+    class="navigate"
+    @click="translate('next')"
+    :disabled="(currentPage >= pageCount)"
+  >    
+    <img
+      src="/src/assets/img/right-arrow.svg"
+      alt="Próximo"
+      width="32"
+      height="32"
+    >
+  </button>
+</div>

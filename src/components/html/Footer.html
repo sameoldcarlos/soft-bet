@@ -1,0 +1,19 @@
+<footer class="footer">
+  <div class="footer__payment-options">
+    <img class="footer__payment-option" v-for="option in payment_options" :src="paymentIconPath(option)" :alt="option">
+  </div>
+  <div class="footer__info">
+    <div class="footer__age-warning">
+      <img src="/src/assets/img/+18.svg" alt="Site para maiores de 18 anos">
+      <span>
+        <div>O jogo pode ser viciante</div>
+        <div>Por favor, jogue de forma responsável.</div>
+      </span>
+    </div>
+    <img src="/src/assets/img/logo.svg" alt="Logo Softbet">
+    <div class="footer__copyright-warning">
+      <div>Copyright &copy; 2020 Soft Bet</div>
+      <div>Todos os direitos reservados.</div>
+    </div>
+  </div>
+</footer>

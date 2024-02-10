@@ -1,0 +1,111 @@
+.match-details {
+  width: 801px;
+  height: 140px;
+  background-color: var(--gray-900);
+  border-bottom: 2px solid var(--gray-600);
+  margin-top: 11px;
+  padding: 7px 32px 9px 9px;
+
+  &__header {
+    display: flex;
+    width: 100%;
+    height: 39px;
+    margin-bottom: 9px;
+    font-size: 15px;
+    gap: 10px;
+  }
+
+  &__league-name {
+    margin-left: 10px;
+  }
+
+  &__body {
+    display: flex;
+    align-items: center;
+  }
+
+  &__team {
+    height: 21px;
+  }
+
+  &__score {
+    border-right: 1px solid var(--white);
+  }
+
+  &__team-name {
+    font-size: 12px;
+    margin-left: 14px;
+  }
+
+  &__guest {
+    margin-top: 10px;
+  }
+
+  &__team-score {    
+    color: var(--pink);
+    margin-left: 263px;
+    margin-right: 9px;
+    font-size: 15px;
+  }
+
+  &__odds {    
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    text-align: center;
+    color: var(--black);
+    margin-left: 34px;    
+  }
+
+  p {
+    font-weight: 700;
+  }
+
+  &__odd {
+
+    &-home {      
+      width: 66px;
+      height: 41px;
+      background-color: var(--gray-100);
+    }
+
+    &-draw {      
+      width: 66px;
+      height: 41px;
+      background-color: var(--gray-100);
+      border: 1px solid var(--red);
+    }
+
+    &-guest {      
+      width: 66px;
+      height: 41px;
+      background-color: var(--gray-100);
+      border: 1px solid var(--green);
+    }
+  }
+
+  &__points {
+    margin-left: 18px;
+    .up {
+      margin-right: 3px;
+      color: var(--green)
+    }
+  }
+
+  &__variation {
+    margin-left: 34px;
+  }
+
+  &__footer {  
+    display: flex;
+    align-items: center;  
+    margin-top: 17px;
+  }
+
+  &__info {
+    color: var(--pink);
+    margin-left: 14px;
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+}

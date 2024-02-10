@@ -1,0 +1,21 @@
+.match-carousel {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  &__carousel {
+    display: flex;
+  }
+
+  &__current {
+    display: flex;
+    width: 1080px;
+    overflow: hidden;
+  }
+
+  &__content {
+    display: flex;
+    transition: transform .5s linear;
+    gap: 10px;
+  }
+}

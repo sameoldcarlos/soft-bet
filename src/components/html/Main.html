@@ -1,0 +1,52 @@
+<main class="main">
+  <section style="display: inline-block;">
+    <Leagues leagues-title='Principais Ligas' :countries=this.mainLeaguesList></Leagues>
+    <Leagues
+      leagues-title='Outras Ligas'
+      :countries=this.otherLeaguesList
+      styleHeight="height: 1280px;"
+    >
+    </Leagues>
+  </section>
+  
+  <div>
+    <section style="display: inline-block;">
+      <MatchCarousel></MatchCarousel>
+    </section>
+    <div style="display: flex; margin: 15px;">
+      <div>
+        <section class="banner">
+          <div class="banner__overlay">
+            <div class="banner__overlay--front"></div>
+            <div class="banner__info">
+              <img src="/src/assets/img/logo.svg" alt="Logo Softbet">
+              <span class="banner__text">
+                A melhor banca de 
+                <span class="banner__text banner__text--highlight">aposta do mercado</span>
+              </span>
+            </div>
+          </div>
+        </section>
+        <Calendar></Calendar>
+        <div class="more-info">
+          <p class="more-info__main">1 x 2</p>
+          <p>+ Mais</p>
+          <p>Estatísticas</p>
+        </div>
+        <MatchList></MatchList>
+      </div>
+      <div>
+        <Coupon></Coupon>        
+        <section class="promo-banner">
+          <div class="promo-banner__text">
+            <h1>Ganhe dinheiro no <span>mercado</span> esportivo</h1>
+          </div>
+        </section>
+        <div class="actions">
+          <a href="#header" class="go-to-top"></a>
+          <a href="https://web.whatsapp.com/send?phone=+5577988723301" class="whatsapp" data-tel="77988723301"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
