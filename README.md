@@ -1,8 +1,7 @@
-Softbet Home Page
+# Softbet Home Page
 
-```
-  Modelo fictício de uma home page para uma casa de apostas.
-```
+Modelo fictício de uma home page para uma casa de apostas.
+
 
 ## Tecnologias Utilizadas
 - Vue.js
@@ -10,7 +9,7 @@ Softbet Home Page
 - Vanilla JS
 - HTML5
 
-## Screenchots
+## Screenshots
 
 ![image](https://user-images.githubusercontent.com/99201403/166172498-871a3f60-cbb2-4431-8f70-a3322db27167.png)
 ![image](https://user-images.githubusercontent.com/99201403/166172532-cf763e74-8e02-4ce8-8928-d50e146d045b.png)
